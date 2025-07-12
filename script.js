@@ -16,6 +16,33 @@ const questions = [
       { text: "Mars", correct: true },
       { text: "Jupiter", correct: false }
     ]
+  },
+  {
+    question: "What is the capital of France?",
+    answers: [
+      {text: "Rome", correct: false },
+      {text: "Berlin", correct: false },
+      {text: "Paris", correct: true },
+      {text: "Madrid", correct: false },
+    ]
+  },
+  {
+    question: "What is the name of the largest ocean on Earth?",
+    answers: [
+      {text: "Atlantic Ocean", correct: false },
+      {text: "Indian Ocean", correct: false },
+      {text: "Arctic Ocean", correct: false},
+      {text: "Pacific Ocean", correct: true },
+    ]
+  },
+  {
+    question: "What is the name of the process by which plants make their own food?",
+    answers: [
+      {text: "Respiration", correct: false },
+      {text: "Photosynthesis", correct: true },
+      {text: "Digestion", correct: false },
+      {text: "Fermentation ", correct: false },
+    ]
   }
 ];
 
